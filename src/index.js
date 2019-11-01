@@ -1,23 +1,15 @@
 import React from "react";
 
-import {StatusBar, SafeAreaView, Text} from "react-native";
-//import "~/config/ReactotronConfig";
+import {StatusBar, SafeAreaView} from "react-native";
 
-//import Routes from './routes';
-import Header from "./components/Header";
+import Routes from './routes3';
 
 const App = () => (
     <>
-        
         <StatusBar barStyle='light-content' backgroundColor='#5f8eb5' />
-        
-        <SafeAreaView>
-            <Header /> 
 
-            <Text>Oiii</Text>
-
-        </SafeAreaView>
-        
+        <Routes></Routes>
+ 
     </>
 );
 

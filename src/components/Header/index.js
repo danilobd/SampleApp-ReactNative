@@ -6,6 +6,7 @@ import {white, green, red} from 'ansi-colors';
 export default function Header(){
     return (
         <View style={styles.View}></View>
+        
     );
 }
 

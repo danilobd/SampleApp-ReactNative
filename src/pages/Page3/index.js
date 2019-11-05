@@ -2,14 +2,14 @@ import React from 'react';
 
 import {View, Text, StyleSheet} from "react-native";
 
-const Page2 = ({navigation}) => (
+const Page3 = ({navigation}) => (
     <View style={styles.View}>
-        <Text>Página 2</Text>
+        <Text>Página 3</Text>
     </View>
 );
 
-Page2.navigationOptions = {
-    title: "Página 2",
+Page3.navigationOptions = {
+    title: "Página 3",
 }
 
 const styles = StyleSheet.create({
@@ -20,4 +20,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default Page2;
+export default Page3;

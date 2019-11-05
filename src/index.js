@@ -2,13 +2,15 @@ import React from "react";
 
 import {StatusBar, SafeAreaView} from "react-native";
 
-import Routes from './routes3';
+import Routes from './routes/MaterialBottomTabNavigator';
 
 const App = () => (
     <>
         <StatusBar barStyle='light-content' backgroundColor='#5f8eb5' />
 
-        <Routes></Routes>
+        <SafeAreaView style={{flex: 1}}>
+            <Routes></Routes>
+        </SafeAreaView>
  
     </>
 );
